@@ -1,3 +1,3 @@
 # web2022
 
-Basic website template.
+Website in development for Bowling Green Machine & Welding as designed by Chance Baldwin.
