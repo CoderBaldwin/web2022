@@ -10,14 +10,14 @@ html{
 body {
   margin: 0;
   padding: 0;
-  font-family: Banschrift, sans-serif;
+  font-family: Arial, Verdana, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.6em;
 }
 
 header{
   margin: 0em;
-  font-family: "Arial Rounded MT Bold", Arial;
+  font-family: Georgia, serif;
   font-size: 24px;
   background-color: #a5a5a5;
   line-height: normal;
@@ -42,6 +42,7 @@ nav ul li {
   padding-bottom: 15px;
   list-style-type: none;
   text-transform: uppercase;
+  font-family: Arial Black, sans-serif;
   float:left;
   width: 33.3%;
   text-align:center;
@@ -59,7 +60,7 @@ nav ul li {
 }
 
 .wrapper {
-font-family: Cabin, sans-serif;
+font-family: Verdana, sans-serif;
 margin-top: 0em;
 background-color: #595959;
 color: white;
@@ -86,11 +87,14 @@ footer h4{
   padding-left: 25rem;
   font-size: 24px;
   font-weight: bold;
+  font-size: 28px;
   text-align: left;
+  font-family: Georgia, serif;
 }
 footer h3{
   padding: 2rem;
   font-weight: bold;
+  font-size: 28px;
 }
 footer p{
   float: left;
