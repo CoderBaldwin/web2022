@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 100%;
+  background: #a5a5a5;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Banschrift, sans-serif;
+  font-weight: normal;
+  line-height: 1.6em;
+}
+
+header{
+  margin: 0em;
+  font-family: "Arial Rounded MT Bold", Arial;
+  font-size: 24px;
+  background-color: #a5a5a5;
+  line-height: normal;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  color:white;
+  text-decoration: underline;
+}
+
+nav{
+padding-bottom: 5rem;
+}
+
+nav ul li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+  float:left;
+  width: 33.3%;
+  text-align:center;
+  border: 2px solid #2f4550;
+  box-sizing: border-box;
+  background-color: #2f4550
+
+}
+
+.container{
+  width: 90%;
+  margin:auto;
+  border: 5px #2f4550 solid;
+  text-align: center;
+}
+
+.wrapper {
+font-family: Cabin, sans-serif;
+margin-top: 0em;
+background-color: #595959;
+color: white;
+font-weight: 400;
+
+}
+
+.wrapper figure{
+  padding-top: 2em;
+  border-radius: 15px;
+}
+
+.spacer {
+  padding: 5rem;
+}
+
+footer{
+background-color: #2f4550;
+text-align: center;
+}
+footer h4{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 25rem;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+footer h3{
+  padding: 2rem;
+  font-weight: bold;
+}
+footer p{
+  float: left;
+  width: 25%;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
