@@ -19,23 +19,23 @@ body {
 header{
   display: flex;
   justify-content: space-around;
-  height: center;
   align-items: center;
   padding-top: 0.75em;
   font-family: Georgia, serif;
   font-size: 32px;
   background-color: #a5a5a5;
   line-height: normal;
-  text-align: auto;
+  text-align: center;
 }
 
 header h1{
-  flex 2;
+  /*flex 2;*/
+  height: 50%;
   order: 2;
 }
 
 header img{
-  flex 1;
+  /*flex 1;*/
   order: 1;
 
 
@@ -59,7 +59,7 @@ nav ul li {
   padding-bottom: 15px;
   list-style-type: none;
   text-transform: uppercase;
-  font-family: Arial Black, sans-serif;
+  font-family: "Arial Black", sans-serif;
   float:left;
   width: 33.3%;
   text-align:center;
@@ -140,7 +140,7 @@ footer h3{
 footer p{
   /*float: left*/;
   width: 25%;
-  padding: 2rem, 1rem, 0rem, 1rem;
+  padding: 2rem 1rem 0rem 1rem;
   font-weight: bold;
 }
 
