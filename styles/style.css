@@ -17,10 +17,14 @@ body {
 }
 
 header{
-  display: flex;
+  display:grid;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: 1fr;
+  /*display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding-top: 0.75em;
+  align-items: center; */
+  padding-top: 0.25rem;
   font-family: Georgia, serif;
   font-size: 32px;
   background-color: #a5a5a5;
@@ -30,14 +34,19 @@ header{
 
 header h1{
   /*flex 2;*/
-  height: 50%;
-  order: 2;
+  /*order: 2;*/
+  grid-column: span 2;
+  align-items: center;
+  justify-items: center;
+  margin-right: 3rem;
 }
 
 header img{
-  /*flex 1;*/
-  order: 1;
-
+  /*flex 1;
+  order: 1;*/
+  grid-column: span 1;
+  max-width: 100%;
+  height: auto;
 
 }
 
@@ -77,9 +86,14 @@ nav ul li {
 }
 
 .wrapper {
-  display:flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50% 25% 25%;
+  align-items: center;
+  justify-items: center;
+  /*display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
   font-family: Verdana, sans-serif;
   margin-top: 0em;
   background-color: #595959;
@@ -88,22 +102,30 @@ nav ul li {
 }
 
 .wrapper figure{
-  padding-top: 2em;
   border-radius: 15px;
+  grid-column: span 1;
+  grid-row: span 1;
+  padding: 2em 1rem 0em 1rem;
 }
 
 .wrapper figure a img{
   max-width: 100%;
   height: auto;
-  order: 1;
+  /*order: 1;*/
 }
 
 .wrapper article{
-  order: 2;
+  /*order: 2;*/
+  grid-column: span 1;
+  grid-row: span 1;
+  padding: 0rem 1rem;
 }
 
 .wrapper aside{
-  order: 3;
+  /*order: 3;*/
+  grid-column: span 1;
+  grid-row: span 1;
+  padding: 0rem 1rem;
 }
 
 .spacer {
