@@ -88,7 +88,7 @@ nav ul li {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 40% 35% 25%;
+  grid-template-rows: 10% 30% 35% 25%;
   align-items: center;
   justify-items: center;
   /*display:flex;
@@ -105,6 +105,8 @@ nav ul li {
   border-radius: 15px;
   grid-column: span 1;
   grid-row: span 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
   padding: 2em 1rem 0em 1rem;
 }
 
@@ -118,6 +120,8 @@ nav ul li {
   /*order: 2;*/
   grid-column: span 1;
   grid-row: span 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
   padding: 0rem 1rem;
 }
 
@@ -125,7 +129,9 @@ nav ul li {
   /*order: 3;*/
   grid-column: span 1;
   grid-row: span 1;
-  padding: 0rem 1rem;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  padding: 1rem 1rem;
 }
 
 .spacer {
