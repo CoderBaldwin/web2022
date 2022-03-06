@@ -88,7 +88,7 @@ nav ul li {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 50% 25% 25%;
+  grid-template-rows: 40% 35% 25%;
   align-items: center;
   justify-items: center;
   /*display:flex;
