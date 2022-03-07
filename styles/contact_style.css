@@ -123,7 +123,9 @@ header h2{
     position: relative;
     top:50%;
     left:50%;
-    width: 90%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    width:90%;
     margin:1em;
     font-family: Verdana, sans-serif;
     border: 5px #2f4550 solid;
@@ -170,6 +172,8 @@ header h2{
     position: relative;
     top:50%;
     left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
     width: 90%;
     margin:1em;
     font-family: Verdana, sans-serif;
