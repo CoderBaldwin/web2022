@@ -52,38 +52,38 @@ body {
 
 
 @media screen and (min-width: 768px){
-header{
-  display:grid;
-  grid-row-gap: 1.5rem;
-  grid-template-columns: 20% 40% 40%;
-  grid-template-rows: 1fr;
-  /*display: flex;
-  justify-content: space-around;
-  align-items: center; */
-  padding-top: 0.25rem;
-  font-family: Georgia, serif;
-  font-size: 32px;
-  background-color: #a5a5a5;
-  line-height: normal;
-  text-align: center;
-  }
+  header{
+    display:grid;
+    grid-row-gap: 1.5rem;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 1fr;
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    padding-top: 0.25rem;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    background-color: #a5a5a5;
+    line-height: normal;
+    text-align: center;
+    }
 
-header h1{
-  /*flex 2;*/
-  /*order: 2;*/
-  grid-column: span 2;
-  align-items: center;
-  justify-items: center;
-  margin-right: 3rem;
-  }
+  header h1{
+    /*flex 2;*/
+    /*order: 2;*/
+    grid-column: span 2;
+    align-items: center;
+    justify-items: center;
+    margin-right: 3rem;
+    }
 
-header img{
-  /*flex 1;
-  order: 1;*/
-  grid-column: span 1;
-  max-width: 100%;
-  height: auto;
-  }
+  header img{
+    /*flex 1;
+    order: 1;*/
+    grid-column: span 1;
+    max-width: 100%;
+    height: auto;
+    }
 }
 
 a{
@@ -96,7 +96,7 @@ a:hover{
 }
 
 nav{
-padding-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 
 nav ul li {
@@ -189,40 +189,40 @@ header h2{
     justify-items: center;
   }
 
-#Title{
-grid-column-start: 1;
-grid-column-end: 1;
-grid-row-start: 1;
-grid-row-end: 2;
-}
+  #Title{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 
-#content{
-grid-column-start: 1;
-grid-column-end: 1;
-grid-row-start: 2;
-grid-row-end: 5;
-}
+  #content{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
 
-#form{
-grid-column-start: 2;
-grid-column-end: 2;
-grid-row-start: 2;
-grid-row-end: 5;
-}
+  #form{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
 
-.row{
-  width: 100%;
-}
+  .row{
+    width: 100%;
+  }
 
 }
 
 footer{
-background-color: #2f4550;
-text-align: center;
-display: flex;
-flex-direction: column;
-justify-items: start;
-/*border: solid 2px white;*/
+  background-color: #2f4550;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  /*border: solid 2px white;*/
 }
 footer h4{
   padding-top: 2rem;
