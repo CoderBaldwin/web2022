@@ -20,7 +20,7 @@ body {
   header{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
     padding-top: 0.25rem;
     font-family: Georgia, serif;
     font-size: 32px;
@@ -32,8 +32,8 @@ body {
   header h1{
     /*flex 2;*/
     /*order: 2;*/
-    grid-column-start: 2;
-    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
     align-items: center;
     justify-items: center;
     }
@@ -41,8 +41,8 @@ body {
   header img{
     /*flex 1;
     order: 1;*/
-    grid-column-start: 1;
-    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
     max-width: 100%;
     height: auto;
 
