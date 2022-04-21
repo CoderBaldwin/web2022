@@ -120,7 +120,7 @@ header h2{
   }
 
   @media screen and (max-width: 767px){
-    .container{
+    .service_container{
       position: relative;
       top:50%;
       left:50%;
@@ -183,7 +183,7 @@ header h2{
   }
 
   @media screen and (min-width: 768px){
-    .container{
+    .service_container{
       position: relative;
       top:50%;
       left:50%;
@@ -200,12 +200,11 @@ header h2{
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
-      
     }
 
 
 
-    #Title{
+    #ServicesTitle{
       grid-column: span 2;
       grid-row-start: 1;
       grid-row-end: 1;

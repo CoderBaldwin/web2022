@@ -16,7 +16,6 @@ body {
   line-height: 1.6em;
 }
 
-
 @media screen and (max-width: 767px){
   header{
     display:grid;
@@ -49,7 +48,6 @@ body {
 
   }
 }
-
 
 @media screen and (min-width: 768px){
   header{
@@ -86,6 +84,8 @@ body {
     }
 }
 
+
+
 a{
   text-decoration: none;
   color:#F7C43B;
@@ -111,15 +111,66 @@ nav ul li {
   border: 2px solid #2f4550;
   box-sizing: border-box;
   background-color: #2f4550
+
 }
 
-header h2{
+.index_container{
+  width: 90%;
+  margin:auto;
+  border: 5px #2f4550 solid;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 2fr 1fr;
+  align-items: center;
+  justify-items: center;
+  /*display:flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  font-family: Verdana, sans-serif;
+  margin-top: 0em;
+  padding-top: 1em;
   background-color: #595959;
   color: white;
-  }
+  font-weight: 400;
+}
+
+.wrapper figure{
+  border-radius: 15px;
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.wrapper figure a img{
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  /*order: 1;*/
+}
+
+.wrapper article{
+  /*order: 2;*/
+  grid-column: span 1;
+  grid-row: span 1;
+  padding: 0rem 1rem;
+}
+
+.wrapper aside{
+  /*order: 3;*/
+  grid-column: span 1;
+  grid-row: span 1;
+  padding: 1rem 1rem;
+}
+
+.spacer {
+  padding: 5rem;
+}
 
 @media screen and (max-width: 767px){
-  .contact_container{
+  .service_container{
     position: relative;
     top:50%;
     left:50%;
@@ -135,67 +186,189 @@ header h2{
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 3fr;
+    grid-template-rows: 1fr 2fr 3fr 3fr;
     align-items: center;
     justify-items: center;
     }
 
-    #ContactTitle{
+    #ServicesTitle{
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
+    align-items:center;
+    justify-items: center;
     }
 
-    #content{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    padding: 0px 50px 0 50px;
+    main{
+      grid-row-start: 2;
+      grid-row-end: 2;
+      padding: 0px 50px 0 50px;
     }
 
-    #form{
+    #Services{
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 3;
-    padding-bottom: 20px;
+    padding: 0px 50px 0 50px;
     }
 
-    input{
-      width: 100%;
-      border: 2px solid #2f4550;
-      border-radius:4px;
-      margin:8px 0;
-      outline: none;
-      padding: 8px;
-      box-sizing:border-box;
+    #Services ul li{
+      list-style-type: none;
     }
 
-    textarea{
-      width: 100%;
-      border: 2px solid #2f4550;
-      border-radius:4px;
-      margin:8px 0;
-      outline: none;
-      padding: 8px;
-      box-sizing:border-box;
+    #Equipment{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    padding: 0px 50px 0 50px;
     }
 
-    textarea:focus{
-      border-color:#F7C43B;
-      box-shadow:0 0 8px 0 #F7C43B;
+    #Equipment ul li{
+      list-style-type: none;
     }
 
-    input:focus{
-      border-color:#F7C43B;
-      box-shadow:0 0 8px 0 #F7C43B;
-    }
+    .contact_container{
+      position: relative;
+      top:50%;
+      left:50%;
+      margin-right: -50%;
+      transform: translate(-50%, 0%);
+      width:90%;
+      margin:1em;
+      font-family: Verdana, sans-serif;
+      border: 5px #2f4550 solid;
+      background-color: #595959;
+      color: white;
+      font-weight: 400;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 2fr 3fr;
+      align-items: center;
+      justify-items: center;
+      }
+
+      #ContactTitle{
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      }
+
+      #ContactContent{
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 2;
+      grid-row-end: 2;
+      padding: 0px 50px 0 50px;
+      }
+
+      #form{
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 3;
+      grid-row-end: 3;
+      padding-bottom: 20px;
+      }
+
+      input{
+        width: 100%;
+        border: 2px solid #2f4550;
+        border-radius:4px;
+        margin:8px 0;
+        outline: none;
+        padding: 8px;
+        box-sizing:border-box;
+      }
+
+      textarea{
+        width: 100%;
+        border: 2px solid #2f4550;
+        border-radius:4px;
+        margin:8px 0;
+        outline: none;
+        padding: 8px;
+        box-sizing:border-box;
+      }
+
+      textarea:focus{
+        border-color:#F7C43B;
+        box-shadow:0 0 8px 0 #F7C43B;
+      }
+
+      input:focus{
+        border-color:#F7C43B;
+        box-shadow:0 0 8px 0 #F7C43B;
+      }
 
 
 }
+
 @media screen and (min-width: 768px){
+  .service_container{
+    position: relative;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    width: 90%;
+    margin:1em;
+    font-family: Verdana, sans-serif;
+    border: 5px #2f4550 solid;
+    background-color: #595959;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+  }
+
+
+
+  #ServicesTitle{
+    grid-column: span 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+  }
+
+  main{
+    grid-column: span 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 0px 50px;
+  }
+
+  #Services{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding: 0px 50px 0 50px;
+    text-align: left;
+  }
+
+  #Services ul li{
+    list-style-type: none;
+  }
+
+  #Equipment{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding: 0px 50px 0 50px;
+    text-align: left;
+  }
+
+  #Equipment ul li{
+    list-style-type: none;
+  }
+
   .contact_container{
     position: relative;
     top:50%;
